@@ -4,6 +4,13 @@ body {
   padding-top: 30px;
   margin-left: 0px;
 }
+
+body{
+        text-align:center;
+        width:fit-content;
+        margin:auto
+      }
+
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
 https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -12,7 +19,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #e08fb8;
   position: fixed;
   top: 0;
   width: 100%;
@@ -36,7 +43,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: red;
+  background-color: rgb(218, 87, 152);
 }
 
 h1 {
